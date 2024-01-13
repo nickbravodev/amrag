@@ -1,7 +1,10 @@
 {
-  "name": "",
+  "name": "amrag",
   "type": "module",
   "version": "0.0.1",
+  "browserslist": [
+    "defaults"
+  ],
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
@@ -10,6 +13,18 @@
     "astro": "astro"
   },
   "dependencies": {
-    "astro": "^4.1.2"
+    "astro": "^4.1.2",
+    "astro-icon": "^0.8.2"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.16",
+    "postcss": "^8.4.33",
+    "postcss-custom-media": "^10.0.2",
+    "postcss-import": "^15.1.0",
+    "postcss-media-minmax": "^5.0.0",
+    "postcss-mixins": "^9.0.4",
+    "postcss-preset-env": "^9.1.4",
+    "postcss-scss": "^4.0.9",
+    "sass": "^1.68.0"
   }
 }
