@@ -10,6 +10,7 @@ import htmlBeautifier from "astro-html-beautifier";
 export default defineConfig({
   output: "server",
   adapter: netlify(),
+  site: "https://americanragnarok.com",
   integrations: [
     sitemap(),
     robotsTxt(),
